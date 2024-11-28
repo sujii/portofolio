@@ -1,4 +1,4 @@
-import { Button } from "@repo/ui/components/ui/Button";
+import { Button } from "@sujii/portofolio-ui/components/ui/Button";
 
 export default function Home() {
   return (

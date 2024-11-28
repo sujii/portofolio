@@ -1,9 +1,9 @@
 {
-  "extends": "@repo/typescript-config/react-library.json",
+  "extends": "@sujii/portofolio-typescript-config/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@repo/ui/*": ["./*"]
+      "@sujii/portofolio-ui/*": ["./*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],
