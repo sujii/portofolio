@@ -1,7 +1,7 @@
 import { withSentryConfig } from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["@repo/ui"],
+  transpilePackages: ["@sujii/portofolio-ui"],
 };
 
 export default withSentryConfig(nextConfig, {
