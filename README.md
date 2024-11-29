@@ -1,36 +1,57 @@
 # portofolio
 
-This is portofolio using workspaces built with turborepo and yarn@4.4.1 (berry).
+This is portofolio App using workspaces built with vercel/turborepo, bond with yarn@4.4.1 (berry) Workspaces.
 
 ## NOW UNDER WIP:
 
-### PLEASE CHECK AND SEE ISSUES.
+Please see [Issues](https://github.com/sujii/portofolio/issues).
 
 ## Tech
 
-- [turborepo](https://turbo.build/repo/docs)
-- [berry (yarn@4.4.1)](https://github.com/yarnpkg/berry)
+### CoreMiddleWares:
 
-### Cloud
+- [Turborepo (inclued Nextjs, React)](https://turbo.build/repo/docs)
+- [Berry (yarn@4.4.1)](https://github.com/yarnpkg/berry)
+  - I like PNPM, but it wears on me at times.
+
+### Cloud:
 
 - Doppler
 - DigitalOcean
-- AppWrite
+- AppWrite (or Maybe SupaBase)
 - Sentry
 
-### DB
+### DB:
 
 - Prisma (ORM)
 - SQLite (node@22.7.0 native-API)
 
-### Schemes
+### Schemes:
 
 - GraphQL
-  - [generated codes](https://github.com/sujii/portofolio/tree/d59c9a72169d656347b02bec54ffb582cb4a09a7/apps/api-client/dist)
+    - [MockData/GeneratdCodes](https://github.com/sujii/portofolio/tree/d59c9a72169d656347b02bec54ffb582cb4a09a7/apps/api-client/dist)
+
+### Apps:
+
+1. ApiClients
+    - ApiClients generates Interfaces, Modules, Functions, and Hooks from GraphQL.
+2. App
+    - Web application itself
+    - [ComponentsList](https://github.com/sujii/portofolio/issues/16#issue-2703890030)
+3. HeadLessAPI (Not Standby)
+    - The package will be able to manipulate Prisma's DB schema from the GUI, but currently it is simply Prisma.
+
+### Packages:
+
+1. Constants
+2. Styles
+3. Statics
+4. TypeScriptConfig
+5. UI
 
 ## Setup
 
-### Install yarn@4.4.1 (berry)
+### Install yarn@4.4.1 (berry):
 
 ```sh
 corepack enable
@@ -38,7 +59,7 @@ yarn init -2
 yarn set version stable
 ```
 
-### Create Workspaces, with Generate Dev specifics
+### Create Workspaces, with Setup Developpers Specifications (with Doppler):
 
 ```sh
 pwd
