@@ -1,6 +1,6 @@
 # portofolio
 
-This is portofolio App using workspaces built with vercel/turborepo, bonded with yarn@4.4.1 (berry) Workspaces.
+This is `portofolio` App using workspaces built with vercel/turborepo, bonded with yarn@4.4.1 (berry) Workspaces.
 
 ## NOW UNDER WIP:
 
