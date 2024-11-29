@@ -1,5 +1,5 @@
 {
-  "extends": "@sujii/portofolio-typescript-config/react-library.json",
+  "extends": "../typescript-config/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
