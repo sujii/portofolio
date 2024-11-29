@@ -5,7 +5,7 @@ const nextConfig = {
 };
 
 export default withSentryConfig(nextConfig, {
-  org: "asobiinc",
+  org: "VVVVISE",
   project: "javascript-nextjs",
   silent: !process.env.CI,
   widenClientFileUpload: true,
