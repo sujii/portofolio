@@ -26,10 +26,11 @@ This is portofolio using workspaces built with turborepo and yarn@4.4.1 (berry).
 ### Schemes
 
 - GraphQL
+  - [generated codes](https://github.com/sujii/portofolio/tree/d59c9a72169d656347b02bec54ffb582cb4a09a7/apps/api-client/dist)
 
 ## Setup
 
-### to Install yarn@4.4.1 (berry)
+### Install yarn@4.4.1 (berry)
 
 ```sh
 corepack enable
@@ -37,36 +38,59 @@ yarn init -2
 yarn set version stable
 ```
 
-### Create Workspaces
+### Create Workspaces, with Generate Dev specifics
 
 ```sh
-yarn unlink && yarn link
-yarn install
+pwd
+$HOME/Projects/portofolio
+
+make init
+```
+
+## Build
+
+```sh
+pwd
+$HOME/Projects/portofolio
+
+yarn build
 ```
 
 ## Directives
 
 ```sh
 .
-├── .github
 ├── LICENSE
+├── Makefle
 ├── README.md
 ├── apps
+│   ├── api-client
+│   │   ├── README.md
+│   │   ├── codegen.ts
+│   │   ├── dist
+│   │   ├── node_modules
+│   │   ├── package.json
+│   │   ├── src
+│   │   └── tsconfig.json
+│   ├── prisma
+│   │   ├── migrations
+│   │   └── schema.prisma
 │   └── web
-│       ├── dotenv.clstg
-│       ├── dotenv.local
-│       ├── next.config.ts
-│       ├── package.json
-│       ├── static
-│       ├── scripts
-│       └── src
-│           ├── components
-│           ├── modules
-│           ├── pages
-│           ├── stores
-│           └── utils
+│       ├── README.md
+│       ├── consts
+│       ├── instrumentation.ts
+│       ├── next-env.d.ts
+│       ├── next.config.mjs
+│       ├── node_modules
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── public
+│       ├── sentry.client.config.ts
+│       ├── sentry.edge.config.ts
+│       ├── sentry.server.config.ts
+│       ├── tailwind.config.ts
+│       └── tsconfig.json
 ├── docs
-├── Makefile
 ├── node_modules
 │   └── @sujii
 │       ├── portofolio-api-client
@@ -81,17 +105,24 @@ yarn install
 │       └── portofolio-ui
 ├── package.json
 ├── packages
-│   ├── api-client
-│   ├── assets
 │   ├── constants
-│   ├── locales
-│   ├── prisma
-│   ├── storybook-server
-│   ├── testdata
-│   ├── tests
+│   ├── css
+│   │   └── globals.css
+│   ├── public
 │   ├── typescript-config
+│   │   ├── base.json
+│   │   ├── nextjs.json
+│   │   ├── package.json
+│   │   └── react-library.json
 │   └── ui
-├── scripts
+│       ├── components
+│       ├── components.json
+│       ├── css
+│       ├── lib
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── tailwind.config.ts
+│       └── tsconfig.json
 ├── turbo.json
 └── yarn.lock
 ```
