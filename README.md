@@ -74,6 +74,7 @@ make init
 pwd
 $HOME/Projects/portofolio
 
+# To Build, All Apps and Packages.
 yarn build
 ```
 
