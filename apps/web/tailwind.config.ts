@@ -1,1 +1,1 @@
-export * from "@sujii/portofolio-ui/tailwind.config";
+export * from "@repo/portofolio-ui/tailwind.config";

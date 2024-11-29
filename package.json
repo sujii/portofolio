@@ -1,4 +1,27 @@
 {
-  "name": "portofolio",
+  "name": "@repo/portofolio",
+  "private": true,
+  "version": "0.9.1",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "turbo lint -- --fix",
+    "web": "yarn workspace @repo/portofolio-web",
+    "api-client": "yarn workspace @repo/portofolio-api-client",
+    "pritty": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.4.1",
+    "turbo": "^2.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "lisence": "UNLICENSED",
   "packageManager": "yarn@4.5.3"
 }

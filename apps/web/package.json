@@ -1,18 +1,20 @@
 {
-  "name": "@sujii/portfolio-web",
+  "name": "@repo/portofolio-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "web": "yarn workspace web",
+    "api-client": "yarn workspace api-client"
   },
   "dependencies": {
     "@prisma/client": "6.0.0",
+    "@repo/portofolio-typescript-config": "workspace:*",
+    "@repo/portofolio-ui": "workspace:*",
     "@sentry/nextjs": "^8.41.0",
-    "@sujii/portofolio-typescript-config": "workspace:*",
-    "@sujii/portofolio-ui": "workspace:*",
     "next": "15.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

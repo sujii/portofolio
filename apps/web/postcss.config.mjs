@@ -1,1 +1,1 @@
-export { default } from "@sujii/portofolio-ui/postcss.config";
+export { default } from "@repo/portofolio-ui/postcss.config";

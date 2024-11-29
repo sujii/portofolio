@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@sujii/portofolio-ui/*": ["./*"]
+      "@repo/portofolio-ui/*": ["./*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

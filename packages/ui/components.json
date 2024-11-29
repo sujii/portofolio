@@ -11,7 +11,7 @@
     "prefix": ""
   },
   "aliases": {
-    "components": "@sujii/portofolio-ui/components",
-    "utils": "@sujii/portofolio-ui/lib/utils"
+    "components": "@repo/portofolio-ui/components",
+    "utils": "@repo/portofolio-ui/lib/utils"
   }
 }
