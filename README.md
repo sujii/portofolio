@@ -44,6 +44,15 @@ yarn unlink && yarn link
 yarn install
 ```
 
+## Build
+
+```sh
+pwd
+/home/sujii/Projects/portofolio
+
+yarn build
+```
+
 ## Directives
 
 ```sh
