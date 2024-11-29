@@ -18,5 +18,6 @@
   "scripts": {
     "build": "graphql-codegen --config codegen.ts"
   },
-  "type": "module"
+  "type": "module",
+  "lisence": "UNLICENSED"
 }

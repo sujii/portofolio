@@ -33,5 +33,6 @@
       "./components/*.tsx",
       "./components/*.ts"
     ]
-  }
+  },
+  "lisence": "UNLICENSED"
 }
