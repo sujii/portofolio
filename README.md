@@ -6,7 +6,7 @@ This is portofolio App using workspaces built with vercel/turborepo, bond with y
 
 Please see [Issues](https://github.com/sujii/portofolio/issues).
 
-## Tech
+## 1. Tech
 
 ### CoreMiddleWares:
 
@@ -49,7 +49,7 @@ Please see [Issues](https://github.com/sujii/portofolio/issues).
 4. TypeScriptConfig
 5. UI
 
-## Setup
+## 2. Setup
 
 ### Install yarn@4.4.1 (berry):
 
@@ -68,7 +68,7 @@ $HOME/Projects/portofolio
 make init
 ```
 
-## Build
+## 3. Build
 
 ```sh
 pwd
@@ -78,7 +78,7 @@ $HOME/Projects/portofolio
 yarn build
 ```
 
-## Directives
+## 4. Directives
 
 ```sh
 .
