@@ -1,5 +1,5 @@
 {
-  "name": "@sujii/portofolio-api-client",
+  "name": "@repo/portofolio-api-client",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
@@ -16,7 +16,9 @@
     "graphql-yoga": "5.10.3"
   },
   "scripts": {
-    "build": "graphql-codegen --config codegen.ts"
+    "build": "graphql-codegen --config codegen.ts",
+    "web": "yarn workspace web",
+    "api-client": "yarn workspace api-client"
   },
   "type": "module",
   "lisence": "UNLICENSED"
