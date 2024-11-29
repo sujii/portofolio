@@ -1,7 +1,5 @@
 init:
-	@yarn unlink
-	@yarn link
-	@yarn
+	@yarn unlink && yarn link && yarn
 	@doppler login
 
 setup:
