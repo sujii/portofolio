@@ -11,6 +11,7 @@ Please see [Issues](https://github.com/sujii/portofolio/issues).
 ### CoreMiddleWares:
 
 - [Turborepo (inclued Nextjs, React)](https://turbo.build/repo/docs)
+- [nodejs@23.3.0: API Documentation](https://nodejs.org/docs/latest/api/)
 - [Berry (yarn@4.4.1)](https://github.com/yarnpkg/berry)
   - I like PNPM, but it wears on me at times.
 
