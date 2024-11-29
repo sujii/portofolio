@@ -1,4 +1,6 @@
 init:
+	@yarn unlink
+	@yarn link
 	@yarn
 	@doppler login
 
