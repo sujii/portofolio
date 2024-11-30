@@ -85,7 +85,8 @@ yarn build
 
 ## 4. Directives
 
-The arrangement on the directory does not imply the structure of the package as it is. **Packages have a domain and are invoked as a thin domain model** with up to two layers.
+- The arrangement on the directory does not imply the structure of the package as it is. 
+- **Packages have a domain and are invoked as a thin domain model** with up to two layers.
 
 ```sh
 .
