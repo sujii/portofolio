@@ -52,7 +52,7 @@ Please see [Issues](https://github.com/sujii/portofolio/issues).
 2. Styles
 3. Statics
 4. TypeScriptConfig
-5. **[OOPUI](https://github.com/sujii/oopui)**
+5. **[OOUI](https://github.com/sujii/ooui)**
 
 ## 2. Setup
 
@@ -168,7 +168,7 @@ yarn build
 │   │   ├── nextjs.json
 │   │   ├── package.json
 │   │   └── react-library.json
-│   └── oopui # submodule
+│   └── ooui # submodule
 │       ├── components
 │       ├── components.json
 │       ├── css
