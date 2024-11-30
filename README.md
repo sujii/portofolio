@@ -1,7 +1,7 @@
 # portofolio
 
 This is `portofolio` App using workspaces built with vercel/turborepo, bonded with yarn@4.4.1 (berry) Workspaces.
-This Product is ProtoTypes of [LEGOJS](https://github.com/VVVVISE/LEGOJS).
+This Product is **ProtoTypes** of [LEGOJS](https://github.com/VVVVISE/LEGOJS).
 
 ## NOW UNDER WIP:
 
@@ -39,7 +39,7 @@ Please see [Issues](https://github.com/sujii/portofolio/issues).
 ### Apps:
 
 1. ApiClients
-    - ApiClients generates Interfaces, Modules, Functions, and Hooks from GraphQL.
+    - ApiClients generates **Interfaces**, **Modules**, **Functions**, and **Hooks** from **GraphQL**.
 2. App
     - Web application itself
     - [ComponentsList](https://github.com/sujii/portofolio/issues/16#issue-2703890030)
@@ -52,7 +52,7 @@ Please see [Issues](https://github.com/sujii/portofolio/issues).
 2. Styles
 3. Statics
 4. TypeScriptConfig
-5. [OOPUI](https://github.com/sujii/oopui)
+5. **[OOPUI](https://github.com/sujii/oopui)**
 
 ## 2. Setup
 
@@ -85,7 +85,7 @@ yarn build
 
 ## 4. Directives
 
-The arrangement on the directory does not imply the structure of the package as it is. Packages have a domain and are invoked as a thin domain model with up to two layers.
+The arrangement on the directory does not imply the structure of the package as it is. **Packages have a domain and are invoked as a thin domain model** with up to two layers.
 
 ```sh
 .
