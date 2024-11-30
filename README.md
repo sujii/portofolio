@@ -91,27 +91,39 @@ yarn build
 │   │   ├── README.md
 │   │   ├── codegen.ts
 │   │   ├── dist
+│   │   │   ├── modules
+│   │   │   └── graphQL
 │   │   ├── node_modules
 │   │   ├── package.json
 │   │   ├── src
 │   │   └── tsconfig.json
+│   ├── error-manager
+│   │   ├── README.md
+│   │   ├── node_modules
+│   │   ├── package.json
+│   │   └── tsconfig.json
+│   ├── error-boundary-logger
+│   │   ├── README.md
+│   │   ├── node_modules
+│   │   ├── package.json
+│   │   └── tsconfig.json
 │   ├── prisma
+│   │   ├── README.md
+│   │   ├── node_modules
+│   │   ├── package.json
 │   │   ├── migrations
 │   │   └── schema.prisma
 │   └── web
 │       ├── README.md
-│       ├── consts
-│       ├── instrumentation.ts
 │       ├── next-env.d.ts
 │       ├── next.config.mjs
 │       ├── node_modules
 │       ├── package.json
-│       ├── postcss.config.mjs
-│       ├── public
+│       ├── src
+│       ├── statics
 │       ├── sentry.client.config.ts
 │       ├── sentry.edge.config.ts
 │       ├── sentry.server.config.ts
-│       ├── tailwind.config.ts
 │       └── tsconfig.json
 ├── docs
 ├── node_modules
@@ -129,8 +141,6 @@ yarn build
 ├── package.json
 ├── packages
 │   ├── constants
-│   ├── css
-│   │   └── globals.css
 │   ├── public
 │   ├── typescript-config
 │   │   ├── base.json
@@ -143,8 +153,6 @@ yarn build
 │       ├── css
 │       ├── lib
 │       ├── package.json
-│       ├── postcss.config.mjs
-│       ├── tailwind.config.ts
 │       └── tsconfig.json
 ├── turbo.json
 └── yarn.lock
