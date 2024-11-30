@@ -27,6 +27,9 @@ Please see [Issues](https://github.com/sujii/portofolio/issues).
 
 - Prisma (ORM)
 - SQLite (node@22.7.0 native-API)
+  - ClientSide
+- MySQL, MongoDB
+  - ClstgSide
 
 ### Schemes:
 
