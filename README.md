@@ -1,7 +1,7 @@
 # portofolio
 
 This is `portofolio` App using workspaces built with vercel/turborepo, bonded with yarn@4.4.1 (berry) Workspaces.
-This Product is Demonstration of [LEGOJS](https://github.com/VVVVISE/LEGOJS).
+This Product is ProtoTypes of [LEGOJS](https://github.com/VVVVISE/LEGOJS).
 
 ## NOW UNDER WIP:
 
