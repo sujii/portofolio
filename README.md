@@ -1,4 +1,7 @@
-# portofolio
+# Duplicated!
+This Project moved to https://github.com/sujii/lego
+
+## portofolio
 
 This is `portofolio` App using workspaces built with vercel/turborepo, bonded with yarn@4.4.1 (berry) Workspaces.
 This Product is **ProtoTypes** of [LEGOJS](https://github.com/VVVVISE/LEGOJS).
