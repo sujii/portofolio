@@ -49,7 +49,7 @@ Please see [Issues](https://github.com/sujii/portofolio/issues).
 2. Styles
 3. Statics
 4. TypeScriptConfig
-5. UI
+5. [OOPUI](https://github.com/sujii/oopui)
 
 ## 2. Setup
 
@@ -124,7 +124,7 @@ The arrangement on the directory does not imply the structure of the package as 
 │       ├── portofolio-testdata
 │       ├── portofolio-tests
 │       ├── portofolio-typescript-config
-│       └── portofolio-ui
+│       └── portofolio-oopui
 ├── package.json
 ├── packages
 │   ├── assets
@@ -164,7 +164,7 @@ The arrangement on the directory does not imply the structure of the package as 
 │   │   ├── nextjs.json
 │   │   ├── package.json
 │   │   └── react-library.json
-│   └── ui
+│   └── oopui # submodule
 │       ├── components
 │       ├── components.json
 │       ├── css
