@@ -82,6 +82,8 @@ yarn build
 
 ## 4. Directives
 
+The arrangement on the directory does not imply the structure of the package as it is. Packages have a domain and are invoked as a thin domain model with up to two layers.
+
 ```sh
 .
 ├── LICENSE
@@ -98,22 +100,6 @@ yarn build
 │   │   ├── package.json
 │   │   ├── src
 │   │   └── tsconfig.json
-│   ├── error-manager
-│   │   ├── README.md
-│   │   ├── node_modules
-│   │   ├── package.json
-│   │   └── tsconfig.json
-│   ├── error-boundary-logger
-│   │   ├── README.md
-│   │   ├── node_modules
-│   │   ├── package.json
-│   │   └── tsconfig.json
-│   ├── prisma
-│   │   ├── README.md
-│   │   ├── node_modules
-│   │   ├── package.json
-│   │   ├── migrations
-│   │   └── schema.prisma
 │   └── web
 │       ├── README.md
 │       ├── next-env.d.ts
@@ -141,8 +127,38 @@ yarn build
 │       └── portofolio-ui
 ├── package.json
 ├── packages
+│   ├── assets
 │   ├── constants
-│   ├── public
+│   ├── locales
+│   ├── tests
+│   ├── error-manager
+│   │   ├── README.md
+│   │   ├── node_modules
+│   │   ├── package.json
+│   │   └── tsconfig.json
+│   ├── error-boundary-logger
+│   │   ├── README.md
+│   │   ├── node_modules
+│   │   ├── package.json
+│   │   └── tsconfig.json
+│   ├── figma-sync-server
+│   │   ├── README.md
+│   │   ├── node_modules
+│   │   ├── package.json
+│   │   ├── migrations
+│   │   └── schema.prisma
+│   ├── prisma
+│   │   ├── README.md
+│   │   ├── node_modules
+│   │   ├── package.json
+│   │   ├── migrations
+│   │   └── schema.prisma
+│   ├── storybook-sync-server
+│   │   ├── README.md
+│   │   ├── node_modules
+│   │   ├── package.json
+│   │   ├── migrations
+│   │   └── schema.prisma
 │   ├── typescript-config
 │   │   ├── base.json
 │   │   ├── nextjs.json
